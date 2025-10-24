@@ -1,0 +1,18 @@
+[package]
+name = "cryptocurrency_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+peers = { path = "../peers" }
+requests = { path = "../requests" }
+
+blockchain = { workspace = true }
+bytes-utils = { workspace = true }
+
+actix-web = { workspace = true }
+aes-gcm = { workspace = true }
+pgp = { workspace = true }
+reqwest = { workspace = true }
+sha2 = { workspace = true }
+tokio = { workspace = true }

@@ -1,0 +1,7 @@
+[package]
+name = "bytes-utils"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = { workspace = true }
